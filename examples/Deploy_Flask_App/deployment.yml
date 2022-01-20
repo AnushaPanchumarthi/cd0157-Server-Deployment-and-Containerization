@@ -20,8 +20,8 @@ spec:
         app: simple-flask
     spec:
       containers:
-      - name: simple-flask
-        image: IMAGE_TAG
+      - name: simpleflask
+        image: anooshaprao/simpleflask
         securityContext:
           privileged: false
           readOnlyRootFilesystem: false
